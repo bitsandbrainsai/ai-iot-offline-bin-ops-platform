@@ -1,9 +1,9 @@
-<h1>🏷️ Offline Bin Detection Automation — AI-Integrated Workflow Platform</h1>
+<h1>🏷️ AI IOT OFFLINE BIN OPS PLATFORM AUTOMATION</h1>
 
 <div class="section">
 <h2>🧾 Executive Summary</h2>
 <p>
-Offline Bin Detection Automation is a production-grade IoT operations intelligence platform developed for Renie Tech Trading LLC.
+AI IOT OFFLINE BIN OPS PLATFORM AUTOMATION is a production-grade IoT operations intelligence platform developed for Renie Tech Trading LLC.
 It continuously monitors thousands of smart bins via API, detects offline anomalies, triggers automated escalation workflows,
 optimizes service routes, and ensures zero-SLA-breach servicing.
 </p>
