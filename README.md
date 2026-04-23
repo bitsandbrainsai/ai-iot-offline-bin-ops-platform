@@ -238,52 +238,52 @@ plans optimized routes for technicians, and escalates unresolved cases through m
 <h3>Enterprise-Grade Architectural Design</h3>
 <pre>
 ┌────────────────────────┐
-│    Renie IoT Platform   │
-│ (Smart Bin Telemetry)   │
+│    Renie IoT Platform  │
+│ (Smart Bin Telemetry)  │
 └─────────────┬──────────┘
               │ REST API (JSON)
               ▼
 ┌────────────────────────┐
-│   n8n Ingestion Layer   │
+│   n8n Ingestion Layer  │
 │  - Polling Scheduler   │
-│  - Offline Detection  │
-│  - Data Normalization │
+│  - Offline Detection   │
+│  - Data Normalization  │
 └─────────────┬──────────┘
               │
               ▼
 ┌────────────────────────┐
 │  Supabase PostgreSQL   │
-│  - Bin Status Ledger  │
-│  - Incident Tracking │
-│  - SLA Timers         │
+│  - Bin Status Ledger   │
+│  - Incident Tracking   │
+│  - SLA Timers          │
 └─────────────┬──────────┘
               │
               ▼
 ┌──────────────────────────────┐
-│    n8n Decision & Workflow    │
-│  - Alert Rules                │
-│  - SLA Enforcement            │
-│  - Escalation Engine          │
-│  - Task Automation            │
+│    n8n Decision & Workflow   │
+│  - Alert Rules               │
+│  - SLA Enforcement           │
+│  - Escalation Engine         │
+│  - Task Automation           │
 └───────┬──────────────┬───────┘
         │              │
         ▼              ▼
-┌──────────────┐   ┌────────────────┐
+┌──────────────┐   ┌─────────────────┐
 │  Twilio +    │   │   Monday.com    │
 │  SMTP Alerts │   │ Service Tickets │
-└──────────────┘   └────────┬───────┘
-                             │
-                             ▼
-                   ┌──────────────────┐
+└──────────────┘   └────────┬────────┘
+                            │
+                            ▼
+                   ┌───────────────────┐
                    │ Google Maps API   │
                    │ Route Optimization│
-                   └─────────┬────────┘
+                   └─────────┬─────────┘
                              │
                              ▼
-                   ┌──────────────────┐
+                   ┌───────────────────┐
                    │ Telegram Dispatch │
                    │ Technician UI     │
-                   └──────────────────┘
+                   └───────────────────┘
 </pre>
 </section>
 
