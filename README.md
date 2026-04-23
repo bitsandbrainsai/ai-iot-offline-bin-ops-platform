@@ -1,4 +1,22 @@
-<h1>🏷️ AI IOT OFFLINE BIN OPS PLATFORM AUTOMATION</h1>
+<div align="center">
+  <img 
+    src="assets/AI IoT Autonomous BinOps Platform.png" 
+    alt="AI RFQ → CRM Orchestration Engine Logo Animation"
+    width="100%"
+  />
+
+  <h1 style="font-size: 3em; font-weight: 800; margin: 0.4em 0 0;">
+    AI IoT Autonomous BinOps Platform
+  </h1>
+
+  <h3 style="margin-top: 0.6em;">
+    Autonomous Smart Waste Operations & Incident Intelligence System 
+  </h3>
+
+  <p>
+    <em>A cloud-native, AI-driven IoT operations platform engineered for intelligent waste management and autonomous field operations. This system ingests real-time smart-bin telemetry, performs offline-first anomaly detection, and orchestrates SLA-aware incident response workflows across distributed environments.  </em>
+  </p>
+</div>
 
 <div class="section">
 <h2>🧾 Executive Summary</h2>
